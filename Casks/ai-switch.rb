@@ -3,15 +3,15 @@
 cask "ai-switch" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.9.2"
-  sha256 arm:   "5d4489054715101eefcc25385a103065c6322204ada10743b6a0a9396302c8ea",
-         intel: "02dabe9444eb2b5cc1338655371d82507b9069f3d07ed92f38a10fad36c15240"
+  version "0.10.0"
+  sha256 arm:   "3ae885ed0fec5ce31b869f1ce927abd8d3231b7911940426b0a1d89c1eb2bed0",
+         intel: "b098bffe59d79e0d42175b63f025e33c2fc31d16c047e24f78a392b270c883a6"
 
   url "https://github.com/ai-switch/ai-switch/releases/download/v#{version}/ai-switch-#{version}-darwin-#{arch}.dmg",
       verified: "github.com/ai-switch/ai-switch/"
   name "AI Switch"
   desc "Switch provider accounts and API routes for AI coding CLIs"
-  homepage "https://ijry.github.io/ai-switch/"
+  homepage "https://ai-switch.github.io/ai-switch/"
 
   livecheck do
     url :url
