@@ -3,9 +3,9 @@
 cask "ai-switch" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.13.0"
-  sha256 arm:   "94e59d8cbd07d1b249455be1223ce53575fb2edfb5d0f6e5d9174a8309a72738",
-         intel: "adca8e5b96cd5ecdd76a964a9b3a4e50cf828c2680f019f8c8e03b4e81322b58"
+  version "0.14.0"
+  sha256 arm:   "ee41870d7b816bc91a01d98432db70dd5beeeaa3b9ce84763cf67c96121fec6d",
+         intel: "cce3ef22019b6435baf4b047e200e54247bc7da80d67c81f12475e7487bc80aa"
 
   url "https://github.com/ai-switch/ai-switch/releases/download/v#{version}/ai-switch-#{version}-darwin-#{arch}.dmg",
       verified: "github.com/ai-switch/ai-switch/"
